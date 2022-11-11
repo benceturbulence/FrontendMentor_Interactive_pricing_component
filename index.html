@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  
+    <header>
+      <div class="container">
+      <h1>
+        Simple, traffic-based pricing
+      </h1>
+      <p>
+        Sign-up for our 30-day trial.</p>
+        <p> No credit card required.</p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <p class="upper"><span id="pageview">10K</span> pageviews</p>
+
+        <div class="slidecontainer">
+          <input type="range" min="10000" max="1000000" value="10000" class="slider" id="mySlider" step="10000">
+          <p class="": <span id="demo"></span></p>
+        </div>
+
+      <section>
+        <div class="pricepara"><span id="price">16.00</span><span>/ month</span></div>
+        <div class="flex">
+            <p>Monthly Billing</p>
+            <div class="togglerContainer">
+              <div id="toggler"></div>
+            </div>
+            <p>Yearl Billing <span>-25%</span></p>
+          </div>
+      </section>
+
+        <div class="bottom">
+          <div>
+            <p><img src='images/icon-check.svg' />Unlimited websites</p>
+            <p><img src='images/icon-check.svg' />100% data ownership</p>
+            <p><img src='images/icon-check.svg' />Email reports</p>
+          </div>
+          <button class="btn">Start my trial</button>
+        </div>
+    </div>
+    </main>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/benceturbulence">benceturbulence</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
