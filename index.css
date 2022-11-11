@@ -198,6 +198,7 @@ main .container{
   color: var(--white);
   font-size: .8rem;
   border: none;
+  cursor: pointer;
   margin-top: 1.5rem;
 }
 
